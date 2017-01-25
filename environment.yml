@@ -1,0 +1,16 @@
+name: pytorch-examples
+channels:
+- soumith
+dependencies:
+- python=3
+- ipython
+- ipython-notebook
+- scipy
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- soumith::pytorch
+- soumith::torchvision
+- pip:
+    - watermark
